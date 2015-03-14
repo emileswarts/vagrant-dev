@@ -67,3 +67,6 @@ cookbook 'unzip',
 
 cookbook 'vagrant-zsh',
   :git => 'https://github.com/avalancheau/cookbook-vagrant-zsh.git'
+
+cookbook 'locales',
+  :git => 'https://github.com/hw-cookbooks/locale.git'

@@ -30,6 +30,7 @@ Vagrant.configure(2) do |config|
     chef.add_role 'apache-webserver'
     chef.add_role 'development'
     chef.add_role 'imagemagick'
+    chef.add_role 'locale'
     chef.add_role 'mysql'
     chef.add_role 'php'
     chef.add_role 'python'

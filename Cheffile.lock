@@ -86,6 +86,13 @@ GIT
     ruby_build (0.8.1)
 
 GIT
+  remote: https://github.com/hw-cookbooks/locale.git
+  ref: master
+  sha: 82b365ba140fe303a5c137aa4a7cc1ad44791bf4
+  specs:
+    locales (1.0.3)
+
+GIT
   remote: https://github.com/opscode-cookbooks/apache2.git
   ref: COOK-3900
   sha: bab6495f825d21371552599ed46a846fb4ad5267
@@ -185,6 +192,7 @@ DEPENDENCIES
   java (>= 0)
   jscoverage (>= 0)
   jslint4java (>= 0)
+  locales (>= 0)
   memcached (>= 0)
   mysql (>= 0)
   nodejs (>= 0)
