@@ -5,8 +5,10 @@ run_list(
   "recipe[apache2::mod_php5]",
   "recipe[phpmyadmin]",
   "recipe[cf]",
+  "recipe[phantomjs]",
   "recipe[nodejs]"
 )
+
 override_attributes(
   "phpmyadmin" => {
     "host" => "127.0.0.1",
