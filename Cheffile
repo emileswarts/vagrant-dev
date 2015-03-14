@@ -64,3 +64,6 @@ cookbook 'java',
 
 cookbook 'unzip',
   :git => 'https://github.com/wharton/chef-unzip.git'
+
+cookbook 'vagrant-zsh',
+  :git => 'https://github.com/avalancheau/cookbook-vagrant-zsh.git'

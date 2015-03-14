@@ -23,6 +23,13 @@ SITE
       yum (~> 3.0)
 
 GIT
+  remote: https://github.com/avalancheau/cookbook-vagrant-zsh.git
+  ref: master
+  sha: 5a1970203925eaf526d410830ed24a0cb25d01af
+  specs:
+    vagrant-zsh (0.1.0)
+
+GIT
   remote: https://github.com/chrisblackburn/chef-cookbooks.git
   path: php
   ref: master
@@ -190,5 +197,6 @@ DEPENDENCIES
   ruby_build (>= 0)
   subversion (>= 0)
   unzip (>= 0)
+  vagrant-zsh (>= 0)
   zsh (>= 0)
 
