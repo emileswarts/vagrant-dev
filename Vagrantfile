@@ -24,8 +24,6 @@ Vagrant.configure(2) do |config|
     chef.add_recipe 'apt'
     chef.add_recipe 'apt::update_cache'
     chef.add_recipe 'apt::packages'
-    chef.add_recipe 'zsh'
-    chef.add_recipe 'oh_my_zsh'
 
     chef.add_role 'apache-webserver'
     chef.add_role 'development'
@@ -37,12 +35,19 @@ Vagrant.configure(2) do |config|
     chef.add_role 'ruby'
     chef.add_role 'source-control'
     chef.add_role 'test'
-    chef.add_role 'vagrant-zsh'
-
+    chef.add_role 'oh_my_zsh'
 
     chef.json = {
       :phpmyadmin => {
         :hostname => 'phpmyadmin.local'
+      },
+      oh_my_zsh: {
+        users: [{
+          login: 'vagrant',
+          theme: 'bira',
+          plugins: ['gem', 'git', 'ruby'],
+          home: '/home/vagrant'
+        }]
       }
     }
   end
