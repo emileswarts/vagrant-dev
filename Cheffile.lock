@@ -148,6 +148,13 @@ GIT
       windows (~> 1.10)
 
 GIT
+  remote: https://github.com/opscode-cookbooks/zsh.git
+  ref: master
+  sha: 3ec5565095d7e24073f8681019382cf36807fdef
+  specs:
+    zsh (1.0.1)
+
+GIT
   remote: https://github.com/wharton/chef-unzip.git
   ref: master
   sha: ee280fcfe14219dd4c886d8ca770067524ba4adb
@@ -174,4 +181,5 @@ DEPENDENCIES
   ruby_build (>= 0)
   subversion (>= 0)
   unzip (>= 0)
+  zsh (>= 0)
 

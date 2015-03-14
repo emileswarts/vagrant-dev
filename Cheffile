@@ -53,6 +53,9 @@ cookbook 'git',
 cookbook 'subversion',
   :git => 'https://github.com/opscode-cookbooks/subversion.git'
 
+cookbook 'zsh',
+  :git => 'https://github.com/opscode-cookbooks/zsh.git'
+
 cookbook 'java',
   :git => 'https://github.com/opscode-cookbooks/java.git'
 
