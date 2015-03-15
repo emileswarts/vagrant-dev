@@ -30,12 +30,13 @@ Vagrant.configure(2) do |config|
     chef.add_role 'imagemagick'
     chef.add_role 'locale'
     chef.add_role 'mysql'
+    chef.add_role 'oh_my_zsh'
     chef.add_role 'php'
     chef.add_role 'python'
     chef.add_role 'ruby'
     chef.add_role 'source-control'
     chef.add_role 'test'
-    chef.add_role 'oh_my_zsh'
+    chef.add_role 'vim'
 
     chef.json = {
       :phpmyadmin => {
@@ -44,8 +45,8 @@ Vagrant.configure(2) do |config|
       oh_my_zsh: {
         users: [{
           login: 'vagrant',
-          theme: 'bira',
-          plugins: ['gem', 'git', 'ruby'],
+          theme: 'horse-sh',
+          plugins: [],
           home: '/home/vagrant'
         }]
       }

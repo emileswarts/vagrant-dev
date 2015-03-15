@@ -162,6 +162,13 @@ GIT
       windows (~> 1.10)
 
 GIT
+  remote: https://github.com/opscode-cookbooks/vim.git
+  ref: master
+  sha: 66f47a0a626b779ead10ef42be43cb7cc368a17b
+  specs:
+    vim (1.1.3)
+
+GIT
   remote: https://github.com/opscode-cookbooks/zsh.git
   ref: master
   sha: 3ec5565095d7e24073f8681019382cf36807fdef
@@ -206,5 +213,6 @@ DEPENDENCIES
   subversion (>= 0)
   unzip (>= 0)
   vagrant-zsh (>= 0)
+  vim (>= 0)
   zsh (>= 0)
 

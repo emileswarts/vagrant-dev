@@ -70,3 +70,6 @@ cookbook 'vagrant-zsh',
 
 cookbook 'locales',
   :git => 'https://github.com/hw-cookbooks/locale.git'
+
+cookbook 'vim',
+  :git => 'https://github.com/opscode-cookbooks/vim.git'
