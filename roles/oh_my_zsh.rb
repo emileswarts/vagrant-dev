@@ -4,6 +4,6 @@ run_list('recipe[oh_my_zsh]')
 
 override_attributes(
   oh_my_zsh: {
-    repository: 'https://github.com/robbyrussell/oh-my-zsh.git'
+    repository: 'https://github.com/emileswarts/oh-my-zsh.git'
   }
 )
