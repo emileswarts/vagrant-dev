@@ -6,7 +6,8 @@ run_list(
 )
 default_attributes(
   "mysql"  => {
-    "bind_address" => "0.0.0.0"
+    "bind_address" => "0.0.0.0",
+    "charset" => "utf8"
   }
 )
 override_attributes(
