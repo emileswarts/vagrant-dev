@@ -6,7 +6,7 @@ run_list(
 )
 default_attributes(
   "mysql"  => {
-    "bind_address" => "127.0.0.1"
+    "bind_address" => "0.0.0.0"
   }
 )
 override_attributes(
